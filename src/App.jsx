@@ -15,7 +15,7 @@ function App() {
     <>
     <div className={styles.container}>
     <Navbar />
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path='/' element={<div>
       <Home />
