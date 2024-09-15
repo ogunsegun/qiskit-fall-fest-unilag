@@ -1,5 +1,6 @@
 {
   "name": "qiskitfallfest2024unilag",
+  "homepage": "https://ogunsegun.github.io/qiskitfallfest2024unilag/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,18 +9,14 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "vite-plugin-svgr": "^4.2.0"
   },
-  "homepage": "https://ogunsegun.github.io/qiskitfallfest2024unilag/",
   "devDependencies": {
     "@eslint/js": "^9.9.0",
     "@types/react": "^18.3.3",
