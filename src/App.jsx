@@ -17,7 +17,7 @@ function App() {
     <div className={styles.container}>
     <Navbar />
       {/* <BrowserRouter >   */}
-      <Router >  
+      {/* <Router >   */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
@@ -25,7 +25,7 @@ function App() {
         <Route path="/News" element={<News />} />
         <Route path="/Register" element={<Register />} />
       </Routes>
-      </Router>  
+      {/* </Router>   */}
      {/* </BrowserRouter>   */}
     
     </div>
