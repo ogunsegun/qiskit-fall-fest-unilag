@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React from 'react'
 //import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import  {BrowserRouter, Link, Routes, Route} from "react-router-dom"
 import About from './About'
@@ -15,7 +15,7 @@ function App() {
     <>
     <div className={styles.container}>
     <Navbar />
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter >
     <Routes>
       <Route path='/' element={<div>
       <Home />
