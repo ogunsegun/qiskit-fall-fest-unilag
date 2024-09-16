@@ -14,7 +14,7 @@ function Home() {
            let's first address the question; what is quantum 
            mechanics—also synonymous with quantum physics?<br/><br />
 
-           <a className={styles.Linkapp} href='/TheEvent' >Click Here For The Event Details</a>
+           <a className={styles.Linkapp} href='/qiskit-fall-fest-unilag/TheEvent' >Click Here For The Event Details</a>
            
            </p>
         <img src={img2} className={styles.imgfull}></img>   
@@ -30,7 +30,7 @@ function Home() {
             <li>Explore the powerful Quantum framework with Qiskit</li>
             <li>Earn a certificate upon completion and enjoy exclusive gifts and freebies!</li>
      </ul>
-     <a className={styles.Linkapp} href='/Register' >Register Now!</a>
+     <a className={styles.Linkapp} href='/qiskit-fall-fest-unilag/Register' >Register Now!</a>
      <br /> <br />
      <h3>Open to Everyone<sub><i> powered by osspi</i></sub></h3>
       </div>

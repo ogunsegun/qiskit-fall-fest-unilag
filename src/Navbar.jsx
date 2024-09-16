@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './App.module.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,7 +24,7 @@ function Navbar() {
         </div>
         <ul >
           <li>
-            <a href='/'>Home</a>
+            <a href='/qiskit-fall-fest-unilag/'>Home</a>
           </li>
 
           <li className={styles.dropdown}>
@@ -31,20 +32,20 @@ function Navbar() {
             {isdropDown && (
               <ul className={styles.dropdownmenu}>
                 <li>
-                  <a href='/TheEvent'>EXTENSION EVENT</a>
+                  <a href='/qiskit-fall-fest-unilag/TheEvent'>EXTENSION EVENT</a>
                 </li>
               </ul>
             )}
           </li>
           
           <li>
-            <a href='/News'>News</a>
+            <a href='/qiskit-fall-fest-unilag/News'>News</a>
           </li>
           <li>
-            <a href='/Register'>Register</a>
+            <a href='/qiskit-fall-fest-unilag/Register'>Register</a>
           </li>
           <li>
-            <a href='/About'>About</a>
+            <a href='/qiskit-fall-fest-unilag/About'>About</a>
           </li>
         </ul>
       </nav>
