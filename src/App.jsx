@@ -1,6 +1,7 @@
 import React from 'react'
 //import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import  {BrowserRouter, Link, Routes, Route} from "react-router-dom"
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+// import  {BrowserRouter, Router, Routes, Route} from "react-router-dom"
 import About from './About'
 import TheEvent from './TheEvent'
 import Navbar from './Navbar'
@@ -15,19 +16,17 @@ function App() {
     <>
     <div className={styles.container}>
     <Navbar />
-    <BrowserRouter >
-    <Routes>
-      <Route path='/' element={<div>
-      <Home />
-     </div>
-    } />
-     <Route path='/About' element={<About />} />
-     <Route path='/TheEvent' element={<TheEvent />} />
-     <Route path='/News' element={<News />} />
-     <Route path='/Register' element={<Register />} />
-    
-    </Routes>
-    </BrowserRouter>
+     {/* <BrowserRouter >  */}
+     <Router> 
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/theevent" element={<TheEvent />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+     </Router> 
+    {/* </BrowserRouter>  */}
     
     </div>
     

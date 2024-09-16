@@ -1,12 +1,15 @@
 {
+  "homepage": "https://ogunsegun.github.io/qiskit-fall-fest-unilag", 
   "name": "qiskitfallfest2024unilag",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
+    "build": "vite build", 
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
