@@ -29,7 +29,7 @@
     position: relative;
 }
 
-.nav a {
+.nav Link {
     color: rgb(146, 145, 145);
     text-decoration: none;
     background: none;

@@ -24,7 +24,7 @@ function Navbar() {
         </div>
         <ul >
           <li>
-            <a href='/qiskit-fall-fest-unilag'>Home</a>
+            <Link href='/qiskit-fall-fest-unilag'>Home</Link>
           </li>
 
           <li className={styles.dropdown}>
@@ -32,20 +32,20 @@ function Navbar() {
             {isdropDown && (
               <ul className={styles.dropdownmenu}>
                 <li>
-                  <a href='/qiskit-fall-fest-unilag/TheEvent'>EXTENSION EVENT</a>
+                  <Link href='/qiskit-fall-fest-unilag/TheEvent'>EXTENSION EVENT</Link>
                 </li>
               </ul>
             )}
           </li>
           
           <li>
-            <a href='/qiskit-fall-fest-unilag/News'>News</a>
+            <Link href='/qiskit-fall-fest-unilag/News'>News</Link>
           </li>
           <li>
-            <a href='/qiskit-fall-fest-unilag/Register'>Register</a>
+            <Link href='/qiskit-fall-fest-unilag/Register'>Register</Link>
           </li>
           <li>
-            <a href='/qiskit-fall-fest-unilag/About'>About</a>
+            <Link href='/qiskit-fall-fest-unilag/About'>About</Link>
           </li>
         </ul>
       </nav>
