@@ -1,7 +1,7 @@
 import React from 'react'
 //import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-// import  {BrowserRouter, Router, Routes, Route} from "react-router-dom"
+// import { HashRouter,  Router, Route, Routes } from 'react-router-dom';
+import  {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import About from './About'
 import TheEvent from './TheEvent'
 import Navbar from './Navbar'
@@ -16,17 +16,17 @@ function App() {
     <>
     <div className={styles.container}>
     <Navbar />
-     {/* <BrowserRouter >  */}
-     <Router> 
+      {/* <BrowserRouter >   */}
+      <Router basename="/qiskit-fall-fest-unilag">  
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/qiskit-fall-fest-unilag/About" element={<About />} />
+        <Route path="/About" element={<About />} />
         <Route path="/TheEvent" element={<TheEvent />} />
         <Route path="/News" element={<News />} />
         <Route path="/Register" element={<Register />} />
       </Routes>
-     </Router> 
-    {/* </BrowserRouter>  */}
+      </Router>  
+     {/* </BrowserRouter>   */}
     
     </div>
     

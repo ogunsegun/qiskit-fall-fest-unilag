@@ -28,7 +28,7 @@ function TheEvent() {
             </li>
             <li>Quantum algorithms and application</li>
      </ul>
-     <a className={styles.Linkapp} href='/Register' >Register Now!</a>
+     <a className={styles.Linkapp} href='/qiskit-fall-fest-unilag/Register' >Register Now!</a>
      <br /> <br />
 
      <h1>24<sup><small>th</small></sup> of Oct  3:00PM - 6:00PM <sub><small>(WAT)</small></sub></h1>
@@ -39,7 +39,7 @@ function TheEvent() {
             </li>
             <li>Implementation of quantum algorithms</li>
      </ul>
-     <a className={styles.Linkapp} href='/Register' >Register Now!</a>
+     <a className={styles.Linkapp} href='/qiskit-fall-fest-unilag/Register' >Register Now!</a>
      <br /> <br />
 
      <h1>25<sup><small>th</small></sup> of Oct  3:00PM - 6:00PM <sub><small>(WAT)</small></sub></h1>
@@ -48,7 +48,7 @@ function TheEvent() {
             <li>Implementation of quantum algorithms(2)</li>
             <li>"Are you ready for a challenge?"</li>
      </ul>
-     <a className={styles.Linkapp} href='/Register' >Register Now!</a>
+     <a className={styles.Linkapp} href='/qiskit-fall-fest-unilag/Register' >Register Now!</a>
      <br /> <br />
 
      <h1>27<sup><small>th</small></sup> of Oct  3:00PM - 6:00PM <sub><small>(WAT)</small></sub></h1>
@@ -59,7 +59,7 @@ function TheEvent() {
             <li>Qisk-symb</li>
             <li>Closing ceremony</li>
      </ul>
-     <a className={styles.Linkapp} href='/Register' >Register Now!</a>
+     <a className={styles.Linkapp} href='/qiskit-fall-fest-unilag/Register' >Register Now!</a>
      <br /> <br />
       </div>
       

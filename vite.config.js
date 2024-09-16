@@ -5,6 +5,7 @@ import svgr from 'vite-plugin-svgr'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), svgr()],
-  base: '/qiskit-fall-fest-unilag/'
+  
+  // base: '/qiskit-fall-fest-unilag'
 })
 

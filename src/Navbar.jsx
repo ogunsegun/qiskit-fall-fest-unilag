@@ -24,7 +24,7 @@ function Navbar() {
         </div>
         <ul >
           <li>
-            <a href='/qiskit-fall-fest-unilag/'>Home</a>
+            <a href='/qiskit-fall-fest-unilag'>Home</a>
           </li>
 
           <li className={styles.dropdown}>
