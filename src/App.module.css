@@ -29,21 +29,6 @@
     position: relative;
 }
 
-.nav Link {
-    color: rgb(146, 145, 145);
-    text-decoration: none;
-    background: none;
-    border-radius: 2px;
-    border: none;
-    cursor: pointer;
-    display: block;
-}
-
-.nav a:hover {
-    text-decoration: underline;
-    color: white;
-}
-
 .nav button:hover {
     border-radius: 5px;
     color: rgb(88, 137, 228);

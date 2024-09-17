@@ -16,15 +16,21 @@ function Navbar() {
     setMenuOpen(!isMenuOpen);
   };
 
+  const closeDropdown = () => {
+    setDropDown(false);
+  }
+
   return (
     <div>
       <nav className={styles.nav}>
         <h4>Qiskit Fall 2024 Unilag QCC</h4>
         <div onClick={toggleMenu}>
+          <div></div>
+          <div></div>
         </div>
         <ul >
           <li>
-            <Link to='/'>Home</Link>
+            <Link className={styles.Linkapp} to='/' onClick={closeDropdown}>Home</Link>
           </li>
 
           <li className={styles.dropdown}>
@@ -32,20 +38,20 @@ function Navbar() {
             {isdropDown && (
               <ul className={styles.dropdownmenu}>
                 <li>
-                  <Link to='/TheEvent'>EXTENSION EVENT</Link>
+                  <Link className={styles.Linkapp} to='/TheEvent' onClick={closeDropdown}>EXTENSION EVENT</Link>
                 </li>
               </ul>
             )}
           </li>
           
           <li>
-            <Link to='/News'>News</Link>
+            <Link className={styles.Linkapp} to='/News' onClick={closeDropdown}>News</Link>
           </li>
           <li>
-            <Link to='/Register'>Register</Link>
+            <Link className={styles.Linkapp} to='/Register' onClick={closeDropdown}>Register</Link>
           </li>
           <li>
-            <Link to='/About'>About</Link>
+            <Link className={styles.Linkapp} to='/About' onClick={closeDropdown}>About</Link>
           </li>
         </ul>
       </nav>
